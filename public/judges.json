@@ -1,0 +1,32 @@
+[
+    {
+        "judgeId": 1,
+        "name": "Dr. Geetanjali Kale",
+        "domain": "ML",
+        "contactNumber": "1212121212"
+    },
+    {
+        "judgeId": 2,
+        "name": "Mayur Chavan",
+        "domain": "CN",
+        "contactNumber": "1212121212"
+    },
+    {
+        "judgeId": 3,
+        "name": "Dr. Madhuri Wakode",
+        "domain": "Cybersecurity",
+        "contactNumber": "1212121212"
+    },
+    {
+        "judgeId": 4,
+        "name": "Dr. Sheetal Sonawane",
+        "domain": "NLP",
+        "contactNumber": "1212121212"
+    },
+    {
+        "judgeId": 5,
+        "name": "Dr. Girish Potdar",
+        "domain": "DSA",
+        "contactNumber": "1212121212"
+    }
+]

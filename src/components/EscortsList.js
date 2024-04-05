@@ -3,7 +3,8 @@ import { useState , useEffect } from "react";
 function EscortsList() {
     const [escorts, setEscorts] = useState( [] )
     useEffect( () => {
-        fetch( "http://localhost:8080/escorts" )
+        // http://localhost:8080/escorts
+        fetch( "escorts.json" )
             .then( (res) => { return res.json() } )
             .then( (data) => {
                 console.log( data )

@@ -1,0 +1,32 @@
+[
+    {
+        "escortId": 1,
+        "name": "Advait Naik",
+        "contactNumber": "9090909090",
+        "judgeId": 1
+    },
+    {
+        "escortId": 2,
+        "name": "Ayush Meshram",
+        "contactNumber": "9090909090",
+        "judgeId": 4
+    },
+    {
+        "escortId": 3,
+        "name": "Kaustubh Netke",
+        "contactNumber": "9090909090",
+        "judgeId": 1
+    },
+    {
+        "escortId": 4,
+        "name": "Pritika Rohera",
+        "contactNumber": "9090909090",
+        "judgeId": 2
+    },
+    {
+        "escortId": 5,
+        "name": "Akshay Lahoti",
+        "contactNumber": "9090909090",
+        "judgeId": 3
+    }
+]

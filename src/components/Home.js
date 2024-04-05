@@ -34,7 +34,7 @@ function Home() {
           to TE students, all engineering branches confined to specific domains
           ; Concepts is a Project Competition for Final Year Students, all
           engineering branches confined to specific domains ; and Pradnya - An
-          International Coding Competition. Students are invited with projects
+          International Coding Competition.  Students are invited with projects
           addressing the societal needs like Health, Agriculture, Kids/Women
           Safety, Education, etc. and the best project judged by the juries will
           be awarded with a cash prize of ₹ 1 Lakh Cash Prize from PICT.
