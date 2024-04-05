@@ -15,6 +15,9 @@ import Bottombar from "./components/Bottombar" ;
 import Search from "./components/Search"
 //import RegisterForm from "./components/Register"
 import EscortsList from "./components/EscortsList";
+import JudgesList from "./components/JudgesList" ; 
+import TeamsList from "./components/TeamsList";
+
 import "./App.css";
 
 function App() {
@@ -31,6 +34,8 @@ function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/home" element={<Home />} />
             <Route path="/escorts" element={ <EscortsList /> } />
+            <Route path="/judges" element={ <JudgesList /> } />
+            <Route path="/teams" element={ <TeamsList /> } />
           </Routes>
           <Bottombar/>
         </div>

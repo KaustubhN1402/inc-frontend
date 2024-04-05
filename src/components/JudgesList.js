@@ -1,26 +1,26 @@
 import { useState , useEffect } from "react";
 
-function EscortsList() {
-    const [escorts, setEscorts] = useState( [] )
+function JudgesList() {
+    const [judges, setJudges] = useState( [] )
     useEffect( () => {
         // http://localhost:8080/escorts
-        fetch( "escorts.json" )
+        fetch( "judges.json" )
             .then( (res) => { return res.json() } )
             .then( (data) => {
                 console.log( data )
-                setEscorts( data )
+                setJudges( data )
             })
     } , [] )
     return (
         <div className="main">
             {
-                escorts.map( (escort) => {
+                judges.map( (judge) => {
                     return (
                     <div>
-                        <p>ID: {escort.escortId}</p> 
-                        <p>Name: {escort.name}</p>
-                        <p>Contact Number: {escort.contactNumber}</p>
-                        <p>Allocated Judge: {escort.judgeId}</p>
+                        <p>ID: {judge.judgeId}</p> 
+                        <p>Name: {judge.name}</p>
+                        <p>Contact Number: {judge.contactNumber}</p>
+                        <p>Domain: {judge.domain}</p>
                     </div>
                     )
                 } )
@@ -29,4 +29,4 @@ function EscortsList() {
     )
 }
 
-export default EscortsList;
+export default JudgesList;
