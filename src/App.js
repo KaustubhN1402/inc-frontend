@@ -14,6 +14,7 @@ import Register from "./components/Register";
 import Bottombar from "./components/Bottombar" ;
 import Search from "./components/Search"
 //import RegisterForm from "./components/Register"
+import EscortsList from "./components/EscortsList";
 import "./App.css";
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
             <Route path="/register" element={<Register />} />
             <Route path="/search" element={<Search />} />
             <Route path="/home" element={<Home />} />
+            <Route path="/escorts" element={ <EscortsList /> } />
           </Routes>
           <Bottombar/>
         </div>
