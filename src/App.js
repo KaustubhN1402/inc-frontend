@@ -19,6 +19,7 @@ import JudgesList from "./components/JudgesList" ;
 import TeamsList from "./components/TeamsList";
 
 import "./App.css";
+import GetJudgeFromTeamID from "./components/GetJudgeFromTeamID";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
             <Route path="/escorts" element={ <EscortsList /> } />
             <Route path="/judges" element={ <JudgesList /> } />
             <Route path="/teams" element={ <TeamsList /> } />
+            <Route path="/judge-from-team-id" element={ <GetJudgeFromTeamID /> } />
           </Routes>
           <Bottombar/>
         </div>
