@@ -2,11 +2,10 @@ import { useState, useEffect } from "react";
 import "./GetJudgeFromTeamID.css";
 import logo from "../logo.png" ;
 
-function SelectedJudgesList() {
+function SelectedJudgesList( { id } ) {
   const [judges, setJudges] = useState([]);
   useEffect(() => {
-    // http://localhost:8080/escorts
-    fetch("judges.json")
+    fetch(`http://localhost:8080/allocation/judges/${id}`)
       .then((res) => {
         return res.json();
       })
@@ -53,7 +52,7 @@ function SearchBox() {
       ></input>
       <button onClick={buttonOnClick} id="b2">Search</button>
       
-      {showComponent && <SelectedJudgesList />}
+      {showComponent && <SelectedJudgesList id={searchTerm}/>}
 
     </div>
   );

@@ -4,8 +4,7 @@ import "./TeamList.css";
 function TeamsList() {
   const [teams, setTeams] = useState([]);
   useEffect(() => {
-    // http://localhost:8080/escorts
-    fetch("teams.json")
+    fetch("http://localhost:8080/teams")
       .then((res) => {
         return res.json();
       })

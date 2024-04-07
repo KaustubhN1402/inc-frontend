@@ -4,8 +4,7 @@ import "./JudgeList.css";
 function JudgesList() {
   const [judges, setJudges] = useState([]);
   useEffect(() => {
-    // http://localhost:8080/escorts
-    fetch("judges.json")
+    fetch("http://localhost:8080/judges")
       .then((res) => {
         return res.json();
       })

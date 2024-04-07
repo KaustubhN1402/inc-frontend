@@ -3,8 +3,7 @@ import "./EscortList.css";
 function EscortsList() {
   const [escorts, setEscorts] = useState([]);
   useEffect(() => {
-    // http://localhost:8080/escorts
-    fetch("escorts.json")
+    fetch("http://127.0.0.1:8080/escorts")
       .then((res) => {
         return res.json();
       })
