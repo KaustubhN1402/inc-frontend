@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import "./EscortList.css";
+import logo from "../logo.png" ; 
 
 function SelectedTeamsList() {
   const [teams, setTeams] = useState([]);
@@ -42,8 +42,10 @@ function SearchBox() {
     setShowComponent(true);
   };
   return (
-    <div>
+    <div className="main-">
+      <img src={logo} alt="" className="logo" />
       <input
+        className="input1"
         type="number"
         value={searchTerm}
         onChange={(event) => {
@@ -51,7 +53,7 @@ function SearchBox() {
         }}
         placeholder="Search by judge ID ..."
       ></input>
-      <button onClick={buttonOnClick}>Go</button>
+      <button onClick={buttonOnClick} id="b2">Search</button>
       {showComponent && <SelectedTeamsList />}
     </div>
   );

@@ -1,8 +1,8 @@
-.main-{
+.main{
     
 }
 
-button {
+#b1 {
     padding: 20px 40px;
     background-color: #007bff;
     color: white;
@@ -11,6 +11,11 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 20px;
+    width: 180px;
+    height: 120px;
+    line-height:normal;
+    font-size: 20px;
+    
     
   }
   button:hover {
@@ -23,5 +28,5 @@ ul{
 }
 
 li{
-    display: inline-block;
+    display:grid;
 }

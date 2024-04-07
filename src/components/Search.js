@@ -5,31 +5,31 @@ import "./Search.css" ;
 
 function Search() {
   return (
-    <div className="main-">
+    <div className="main">
       <ul>
         <li>
           <Link to="/escorts">
-            <button type="button">Escorts</button>
+            <button type="button" id="b1">Escorts</button>
           </Link>
         </li>
         <li>
           <Link to="/judges">
-            <button>Judges</button>
+            <button id ="b1">Judges</button>
           </Link>
         </li>
         <li>
           <Link to="/teams">
-            <button>Teams</button>
+            <button id="b1">Teams</button>
           </Link>
         </li>
         <li>
           <Link to="/judge-from-team-id">
-            <button>Search judges for team ID</button>
+            <button id ="b1">Search judges for team ID</button>
           </Link>
         </li>
         <li>
           <Link to="/team-from-judge-id">
-            <button>Search teams allocated to judge ID</button>
+            <button id="b1">Search teams allocated to judge ID</button>
           </Link>
         </li>
       </ul>

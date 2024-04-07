@@ -17,6 +17,8 @@ import Search from "./components/Search"
 import EscortsList from "./components/EscortsList";
 import JudgesList from "./components/JudgesList" ; 
 import TeamsList from "./components/TeamsList";
+import Footer from "./components/Footer";
+
 
 import "./App.css";
 import GetJudgeFromTeamID from "./components/GetJudgeFromTeamID";
@@ -41,6 +43,7 @@ function App() {
             <Route path="/judge-from-team-id" element={ <GetJudgeFromTeamID /> } />
             <Route path="/team-from-judge-id" element={ <GetTeamFromJudgeID /> } />
           </Routes>
+          <Footer/>
           
         </div>
       </div>

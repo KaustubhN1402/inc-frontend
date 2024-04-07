@@ -57,7 +57,7 @@ function About() {
         <div className="concepts">
           {/* <br /> */}
 
-          <p id="headconcept">CONCEPTS</p>
+          <p id="headconcept">IMPETUS</p>
           <div className="hello">
             <p id="concept">TEAM : 2 to 5 members</p>
             <p id="concept">CRITERIA : final year students only</p>
@@ -74,7 +74,7 @@ function About() {
         <div className="concepts">
           {/* <br /> */}
 
-          <p id="headconcept">CONCEPTS</p>
+          <p id="headconcept">PRADYNA</p>
           <div className="hello">
             <p id="concept">TEAM : 2 to 5 members</p>
             <p id="concept">CRITERIA : final year students only</p>

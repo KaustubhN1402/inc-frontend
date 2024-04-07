@@ -1,0 +1,16 @@
+.footer-section{
+    display:grid;
+    
+}
+
+.main--{
+    background: linear-gradient(to bottom, #0A0B0B, #4c515f); 
+     
+
+    color: #fff;
+    padding: 10px; 
+
+    align-items: center;
+    justify-content: center;
+    display:grid;
+}

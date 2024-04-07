@@ -1,0 +1,40 @@
+.main-{
+    align-items: center;
+    background: linear-gradient(to bottom, #0A0B0B, #4c515f); 
+
+    
+    color: #ede3e3;
+    padding: 80px; 
+
+    align-items: center;
+    justify-content: center;
+    display:grid;
+
+}
+
+.logo{
+    margin-bottom: 40px;
+}
+
+.button1{
+    width: 120px;
+    height:60px ;
+    display: flex;
+    justify-content: center;
+}
+
+.input1{
+    width: 200px;
+    height: 30px;
+}
+
+#b2{
+    height: 40px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    font-weight: 800;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+
+}
