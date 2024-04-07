@@ -1,29 +1,32 @@
 import { useState, useEffect } from "react";
 import "./EscortList.css";
 
-function SelectedJudgesList() {
-  const [judges, setJudges] = useState([]);
+function SelectedTeamsList() {
+  const [teams, setTeams] = useState([]);
   useEffect(() => {
     // http://localhost:8080/escorts
-    fetch("judges.json")
+    fetch("teams.json")
       .then((res) => {
         return res.json();
       })
       .then((data) => {
         console.log(data);
-        setJudges(data);
+        setTeams(data);
       });
   }, []);
   return (
     <div className="main">
         <div className="card-container">
-        {judges.map((judge) => {
+        {teams.map((team) => {
         return (
           <div className="card">
-            <p>ID: {judge.judgeId}</p>
-            <p>Name: {judge.name}</p>
-            <p>Contact Number: {judge.contactNumber}</p>
-            <p>Domain: {judge.domain}</p>
+            <p>ID: {team.teamId}</p>
+              <p>Name: {team.name}</p>
+              <p>Abstract: {team.abstract}</p>
+              <p>Domain: {team.domain}</p>
+              <p>project Type: {team.projectType}</p>
+              <p>Block No: {team.roomNumber}</p>
+              <p>Institute: {team.instituteName}</p>
           </div>
         );
       })}
@@ -46,16 +49,16 @@ function SearchBox() {
         onChange={(event) => {
           setSearchTerm(event.target.value);
         }}
-        placeholder="Search by team ID ..."
+        placeholder="Search by judge ID ..."
       ></input>
       <button onClick={buttonOnClick}>Go</button>
-      {showComponent && <SelectedJudgesList />}
+      {showComponent && <SelectedTeamsList />}
     </div>
   );
 }
 
-function GetJudgeFromTeamID() {
+function GetTeamFromJudgeID() {
   return <SearchBox />;
 }
 
-export default GetJudgeFromTeamID;
+export default GetTeamFromJudgeID;

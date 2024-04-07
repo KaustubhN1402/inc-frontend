@@ -22,6 +22,16 @@ function Search() {
             <button>Teams</button>
           </Link>
         </li>
+        <li>
+          <Link to="/judge-from-team-id">
+            <button>Search judges for team ID</button>
+          </Link>
+        </li>
+        <li>
+          <Link to="/team-from-judge-id">
+            <button>Search teams allocated to judge ID</button>
+          </Link>
+        </li>
       </ul>
     </div>
   );

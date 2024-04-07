@@ -20,6 +20,7 @@ import TeamsList from "./components/TeamsList";
 
 import "./App.css";
 import GetJudgeFromTeamID from "./components/GetJudgeFromTeamID";
+import GetTeamFromJudgeID from "./components/GetTeamFromJudgeID";
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
             <Route path="/judges" element={ <JudgesList /> } />
             <Route path="/teams" element={ <TeamsList /> } />
             <Route path="/judge-from-team-id" element={ <GetJudgeFromTeamID /> } />
+            <Route path="/team-from-judge-id" element={ <GetTeamFromJudgeID /> } />
           </Routes>
           
         </div>
