@@ -3,11 +3,10 @@
 .main{
      background: linear-gradient(to bottom, #0A0B0B, #4c515f); 
      
-     /* background-color:black; */
-    /* Gradient from top to bottom with blue to black colors */
+
     color: #fff;
-    padding: 20px; 
-    /* Adjust padding as needed */
+    padding: 10px; 
+
     align-items: center;
     justify-content: center;
     display:grid;
@@ -51,3 +50,26 @@
     }
   }
 
+.sp-images{
+  display: inline-block;
+  padding: 20px;
+  margin: 30px;
+
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 900;
+  padding: 50px;
+}
+
+h2{
+  font-size: 40px;
+  font-weight: 200;
+}
+
+.sp-images1{
+  display: inline-block;
+  padding: 40px;
+  margin: 30px;
+} 

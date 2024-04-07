@@ -1,14 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Search.css" ; 
 //import EscortsList from "./EscortsList";
 
 function Search() {
   return (
-    <div className="main">
+    <div className="main-">
       <ul>
         <li>
           <Link to="/escorts">
-            <button type="button">click here</button>
+            <button type="button">Escorts</button>
           </Link>
         </li>
         <li>

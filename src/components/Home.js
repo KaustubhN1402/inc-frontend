@@ -1,13 +1,14 @@
 import React from "react";
 import logo from "../logo.png";
+import logos from "../sarvatra1.png";
+import logoss from "../iMocha1.png";
+import loggos from "../intangles1.png" ; 
+import loggoos from "../imperial2.png" ; 
 import "./Home.css";
-
-
 
 function Home() {
   return (
     <div className="main">
-      
       <div className="logo">
         <img src={logo} alt="inclogo" />
       </div>
@@ -16,7 +17,7 @@ function Home() {
       <br />
 
       <div className="project-info">
-        <p id = "head">About Us</p>
+        <p id="head">About Us</p>
         <p>
           Impetus and Concepts (InC) is a flagship technical event of SCTR's
           Pune Institute of Computer Technology (PICT), Pune , which will be
@@ -41,7 +42,22 @@ function Home() {
         </p>
       </div>
 
-      
+      <div className="sponsors">
+        <h1>Sponsors</h1>
+        <h2>Title Sponsors</h2>
+
+        <div className="sp-images">
+          <img src={logos} alt="" />
+        </div>
+        <img src={logoss} alt="" />
+
+        <h2>Co-Sponsors</h2>
+
+        <div className="sp-images1">
+          <img src={loggos} alt="" />
+        </div>
+        <img src={loggoos} alt="" />
+      </div>
     </div>
   );
 }

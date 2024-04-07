@@ -11,7 +11,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Register from "./components/Register";
 //import Contact from "./components/Contact";
-import Bottombar from "./components/Bottombar" ;
+//import Bottombar from "./components/Bottombar" ;
 import Search from "./components/Search"
 //import RegisterForm from "./components/Register"
 import EscortsList from "./components/EscortsList";
@@ -39,7 +39,7 @@ function App() {
             <Route path="/teams" element={ <TeamsList /> } />
             <Route path="/judge-from-team-id" element={ <GetJudgeFromTeamID /> } />
           </Routes>
-          <Bottombar/>
+          
         </div>
       </div>
     </Router>
